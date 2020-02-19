@@ -2,6 +2,7 @@
 # is the same as where this file is located.
 # ruby 3.rb
 
+
 # EXERCISE
 # Create a "shared" shopping list with a friend
 # Create two data structures - one for your list of stuff, and one
@@ -10,6 +11,13 @@
 # Programmatically combine the two arrays into a single list,
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
+
+my_list = ["milk", "eggs", "bacon", "apples"]
+friend_list = ["beer", "cookies", "apples"]
+
+combined = my_list + friend_list
+puts combined.sort.uniq
+
 
 # HINTS
 # Learn to read the documentation!
