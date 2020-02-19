@@ -22,7 +22,7 @@ weather_data = {
     conditions: "Sunny"
   },
   forecast: [
-    { temperature: 65, conditions: "Mostly Cloudy" },
+    { temperature: 65, conditions: "Mostly test Cloudy" },
     { temperature: 70, conditions: "Partly Cloudy" }
   ]
 }
